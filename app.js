@@ -48,4 +48,4 @@ app.get('/',function(req,res){
    });
 });
 
-app.listen(5700);
+app.listen(process.env.PORT || 5700);
