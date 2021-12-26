@@ -33,6 +33,7 @@
 }
 #call{
     display: inline-block;
+    display: inline-flex;
     
 }
 button{
