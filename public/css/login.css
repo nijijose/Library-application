@@ -19,3 +19,6 @@ button:hover{
     color: white;
     border: 2px solid white;
 }
+#call{
+    display: inline-flex;
+}
