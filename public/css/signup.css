@@ -32,7 +32,8 @@
     font-weight: normal;
 }
 #call{
-    display: inline-flex;
+    display: inline-block;
+    
 }
 button{
     background-color: lightsteelblue;
