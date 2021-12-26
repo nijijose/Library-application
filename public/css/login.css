@@ -20,5 +20,5 @@ button:hover{
     border: 2px solid white;
 }
 #call{
-    display: inline;
+    display: inline-flex;
 }
