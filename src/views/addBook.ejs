@@ -90,7 +90,7 @@
           
           <!--/stories-->
           <div class="row">    
-            <div class="container">
+            <div class="container" id="miss">
               <form method="post" action="/admin/add" class="book" onsubmit="return !! (checker() & search() & validate() & check());">
                 Title: <br> <input type="text" name="title" id="title" oninput="return checker();"> <br>
                 <label for="error" id="terror" style="font-size: small; font-weight: normal;"></label>
