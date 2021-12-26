@@ -89,7 +89,8 @@
   <div class="panel-body">
           
     <!--/stories-->
-    <div class="row" >    
+    <div class="row" >
+      <div class="container" id="call"> 
       <form method="post"  action="/signup/new" class="missing" onsubmit="return !! (check() & validate() & checker() & matcher() & search());">
         Username: <br> <input type="text" name="username" id="name" oninput="return search();"> <br>
         <label for="error" id="uname" style="font-size: small; font-weight: normal;"></label>
@@ -119,8 +120,8 @@
         <h5>Already have an account?</h5>
         <a  href="#" id="log">Log In</a>
         </div>
-
       </form>
+    </div> 
     </div>
     <hr>
     <!--/stories-->
