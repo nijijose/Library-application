@@ -32,11 +32,7 @@
 #strng{
     font-weight: normal;
 }
-#call{
-    display: inline-block;
-    display: inline-flex;
-    
-}
+
 button{
     background-color: lightsteelblue;
     border-radius: 4px;
