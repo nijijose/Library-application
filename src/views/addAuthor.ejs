@@ -92,10 +92,10 @@
           <div class="row">    
           <div class="container" id="fun">
             <form method="post" action="/authoradmin/add" class="author" onsubmit="return !! (search() & validate() & check());">
-              Author: <br> <input type="text" name="author" id="name" oninput="return search();"> <br>
+              Author: <br> <input type="text" name="author" id="name" style="width: 70%; height: 1.7em;" oninput="return search();"> <br>
               <label for="error" id="error" style="font-size: small; font-weight: normal;"></label>
               <br>
-              Genre: <br> <input type="text" name="genre" id="genre" oninput="return validate();"> <br>
+              Genre: <br> <input type="text" name="genre" id="genre" style="width: 70%; height: 1.7em;" oninput="return validate();"> <br>
               <label for="error" id="gerror" style="font-size: small; font-weight: normal;"></label>
               <br>
               Image: <br> <input type="file" name="image" id="img"  accept="image/*"> 
